@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "MMDAgent", "MMDAgent.exe", "{76E94660-4A90-4B54-9A23-5BE651B8039A}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = \\LAB2-LANDISK\share\kataoka\m2\本実験\program\MMDAgent_kataoka\MMDAgent-1.3.1\Debug\MMDAgent.exe
+		RemoteMachine = KATAOKA-PC
+		StartingDirectory = \\LAB2-LANDISK\share\kataoka\m2\本実験\program\MMDAgent_kataoka\MMDAgent-1.3.1\Debug
+		Environment = 既定
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76E94660-4A90-4B54-9A23-5BE651B8039A}.Debug|x86.ActiveCfg = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
