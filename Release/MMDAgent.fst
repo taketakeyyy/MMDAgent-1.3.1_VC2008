@@ -245,11 +245,41 @@
 112  2    SYNTH_EVENT_STOP|mei                <eps>
 
 # 画像表示サンプル
-1   141   KEY|1 SYNTH_START|mei|mei_voice_normal|こんなふうにあさひもをリボンに使うとかわいいですよ。
-141  142  <eps>         IMAGE_ADD|image|082.jpg|10.0,10.0|-10.0,15.0,-10.0|0.0,0.0,0.0|ON
-142  143   <eps>        MOTION_ADD|mei|action|Motion\mei_point\mei_point_right_center.vmd|PART|ONCE
-143  2    VOICEROID_EVENT_STOP|mei_voice_normal                <eps>
-
+#1   141   KEY|1 SYNTH_START|mei|mei_voice_normal|こんなふうにあさひもをリボンに使うとかわいいですよ。
+#141  142  <eps>         IMAGE_ADD|image|082.jpg|10.0,10.0|-10.0,15.0,-10.0|0.0,0.0,0.0|ON
+#142  143   <eps>        MOTION_ADD|mei|action|Motion\mei_point\mei_point_right_center.vmd|PART|ONCE
+3143  2    VOICEROID_EVENT_STOP|mei_voice_normal                <eps>
+##なんか挙動がおかしい
 # 画像削除サンプル
-1   2   KEY|2   IMAGE_DELETE|image
+#1   2   KEY|2   IMAGE_DELETE|image
+
+
+#モーションテスト
+#1 1 KEY|1                                  MOTION_ADD|mei|action1|Motion\mei_breath\mei_breath.vmd|PART|ONCE
+#1 1 KEY|2                                  MOTION_ADD|mei|action2|Motion\mei_nod\nod2.vmd|FULL|ONCE
+#1 1 KEY|3                                  MOTION_ADD|mei|action3|Motion\mei_surprise\mei_surprise_normal.vmd|FULL|ONCE
+#1 1 KEY|4                                  MOTION_ADD|mei|action4|Motion\mei_bye\mei_bye.vmd|FULL|ONCE
+#1 1 KEY|5                                  MOTION_ADD|mei|action5|Motion\mei_guide\mei_guide_happy.vmd|FULL|ONCE
+#1 1 KEY|6                                  MOTION_ADD|mei|action6|Motion\mei_guide\mei_guide_sad.vmd|FULL|ONCE
+#1 1 KEY|7                                  MOTION_ADD|mei|action7|Motion\mei_guide\mei_guide_normal.vmd|FULL|ONCE
+#1 1 KEY|8                                  MOTION_ADD|mei|action8|Motion\mei_imagine\mei_imagine_left_normal.vmd|FULL|ONCE
+#1 1 KEY|9                                  MOTION_ADD|mei|action9|Motion\mei_imagine\mei_imagine_left_small.vmd|FULL|ONCE
+#1 1 KEY|0                                  MOTION_ADD|mei|action0|Motion\mei_imagine\mei_imagine_right_normal.vmd|FULL|ONCE
+
+#1 1 KEY|0                                  MOTION_ADD|mei|action0|Motion\mei_panel\mei_panel_on.vmd|FULL|ONCE
+#1 1 KEY|1                                  MOTION_ADD|mei|action1|Motion\mei_panel\mei_panel_off.vmd|FULL|ONCE
+#1 1 KEY|2                                  MOTION_ADD|mei|action2|Motion\mei_call\mei_call.vmd|FULL|ONCE                #「おーい」みたいな感じ
+#1 1 KEY|3                                  MOTION_ADD|mei|action3|Motion\mei_guts\mei_guts.vmd|FULL|ONCE                #ガッツポーズ
+#1 1 KEY|4                                  MOTION_ADD|mei|action4|Motion\mei_laugh\mei_laugh.vmd|FULL|ONCE              #「くすくす」みたいな感じ
+#1 1 KEY|5                                  MOTION_ADD|mei|action5|Motion\mei_point\mei_point_left_buttom.vmd|FULL|ONCE
+#1 1 KEY|6                                  MOTION_ADD|mei|action6|Motion\mei_point\mei_point_left_center.vmd|FULL|ONCE
+#1 1 KEY|7                                  MOTION_ADD|mei|action7|Motion\mei_point\mei_point_lef_top.vmd|FULL|ONCE
+#1 1 KEY|8                                  MOTION_ADD|mei|action8|Motion\mei_flash\mei_flash.vmd|FULL|ONCE              #「ひらめいた！」みたいなかんじ
+#1 1 KEY|9                                  MOTION_ADD|mei|action9|Motion\mei_hand_shake\mei_hand_shake.vmd|FULL|ONCE    #ばいばいみたいなかんじ
+
+#1 1 KEY|1                                  MOTION_ADD|mei|action1|Motion\mei_look\mei_look_down.vmd|FULL|ONCE
+#1 1 KEY|2                                  MOTION_ADD|mei|action2|Motion\mei_self_introduction\mei_self_introduction.vmd|FULL|ONCE
+
+
+
 
